@@ -196,7 +196,7 @@ def home():
 </head>
 <body>
 <div class="wrap">
-  <h2>Dynamic Spring aA 계산기</h2>
+  <h2>Dynamic Spring Interaction Factor(aA) 계산기</h2>
   <div class="card">
     <div class="row">
       <div>
@@ -355,4 +355,5 @@ def plot_png(
     buf.seek(0)
 
     return Response(content=buf.read(), media_type="image/png")
+
 
